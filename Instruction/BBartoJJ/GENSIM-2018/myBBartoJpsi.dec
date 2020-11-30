@@ -1,0 +1,85 @@
+Decay B0
+# ------------- semileptonically ----------------------------
+#  ------------- J/psi + X ----------------------------
+0.000435500 J/psi   K_S0                                    SVS;
+0.000435500 J/psi   K_L0                                    SVS;
+0.001330000 J/psi   K*0                                     SVV_HELAMP PKHplus PKphHplus PKHzero PKphHzero PKHminus PKphHminus;
+0.000017600 J/psi   pi0                                     SVS;
+0.000027000 J/psi   rho0                                    SVV_HELAMP PKHplus PKphHplus PKHzero PKphHzero PKHminus PKphHminus;
+0.00003     J/psi  omega            SVV_HELAMP PKHplus PKphHplus PKHzero PKphHzero PKHminus PKphHminus;
+0.000000000 J/psi   K+      pi-                             PHSP;
+0.0001     J/psi  K0  pi0           PHSP;
+0.001300000 J/psi   K_10                                    SVV_HELAMP 0.5 0.0 1.0 0.0 0.5 0.0;
+0.0001     J/psi  K'_10             SVV_HELAMP 0.5 0.0 1.0 0.0 0.5 0.0;
+0.0005     J/psi  K_2*0              PHSP;
+0.000094000 J/psi   phi     K0                              PHSP;
+0.000871000 J/psi   K0                                      PHSP;
+0.000310000 J/psi   omega   K0                              PHSP;
+0.000009500 J/psi   eta                                     PHSP;
+0.000019000 J/psi   pi+     pi-                             PHSP;
+0.000460000 J/psi   K0      pi+     pi-                     PHSP;
+0.000540000 J/psi   K0      rho0                            PHSP;
+0.000800000 J/psi   K*+     pi-                             PHSP;
+0.000660000 J/psi   K*0     pi+     pi-                     PHSP;
+Enddecay
+CDecay anti-B0
+# 
+Decay B-
+# --------- semileptonically ----------------
+#  --------- J/psi + X ---------------------
+0.001014000 J/psi   K-                                      SVS;
+0.001430000 J/psi   K*-                                     SVV_HELAMP PKHminus PKphHminus PKHzero PKphHzero PKHplus PKphHplus;
+0.000049000 J/psi   pi-                                     SVS;
+0.000050000 J/psi   rho-                                    SVV_HELAMP PKHminus PKphHminus PKHzero PKphHzero PKHplus PKphHplus;
+0.0002   J/psi anti-K0   pi-                    PHSP;
+0.0001   J/psi K-  pi0                    PHSP;
+0.0001   J/psi K'_1-                       SVV_HELAMP 0.5 0.0 1.0 0.0 0.5 0.0;
+0.0005   J/psi K_2*-                       PHSP;
+0.001800000 J/psi   K_1-                                    SVV_HELAMP 0.5 0.0 1.0 0.0 0.5 0.0;
+0.000052000 J/psi   phi     K-                              PHSP;
+0.001070000 J/psi   K-      pi-     pi+                     PHSP;
+0.000108000 J/psi   eta     K-                              PHSP;
+0.000350000 J/psi   omega   K-                              PHSP;
+0.000011800 J/psi   anti-p- Lambda0                         PHSP;
+Enddecay
+CDecay B+
+#
+Decay B_s0
+# --------- semileptonically ----------------
+# ------------- J/psi + X -------------------
+0.00064     J/psi       eta'                           SVS;
+0.00032     J/psi       eta                               SVS;
+0.001300000 J/psi   phi                                     SVV_HELAMP  1.0 0.0 1.0 0.0 1.0 0.0;
+0.00008     J/psi       K0                           SVS;
+0.00070     J/psi       K-          K+                     PHSP;
+0.00070     J/psi       anti-K0     K0                     PHSP;
+0.00070     J/psi       K0          K-         pi+         PHSP;
+0.00070     J/psi       anti-K0     K0         pi0         PHSP;
+0.00070     J/psi       K-          K+         pi0         PHSP;
+0.00039   J/psi   phi      pi+  pi-  PHSP;
+0.00039   J/psi   phi      pi0  pi0  PHSP;
+0.0002    J/psi   eta      pi+  pi-  PHSP;
+0.0002    J/psi   eta      pi0  pi0  PHSP;
+0.0004    J/psi   eta'     pi+  pi-  PHSP;
+0.0004    J/psi   eta'     pi0  pi0  PHSP;
+0.0002    J/psi   pi+      pi-       PHSP;
+0.0002    J/psi   pi0      pi0       PHSP;
+Enddecay
+CDecay anti-B_s0
+#
+Decay Lambda_b0
+# --------- semileptonically ----------------
+# ------------ J/psi + X -------------------
+  0.00047    Lambda0         J/psi                        PHSP;
+Enddecay
+CDecay anti-Lambda_b0
+Decay  B_c+
+  1.000     J/psi   pi+  pi-  pi+       PHSP;
+  1.000     J/psi   pi+                 SVS;
+Enddecay
+CDecay B_c-
+#  --------- J/psi --> mu+ mu- wrt to the original BR ----------------
+Decay J/psi
+0.059300000 mu+     mu-                                     PHOTOS   VLL;
+Enddecay
+End
